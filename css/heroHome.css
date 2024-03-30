@@ -1,0 +1,71 @@
+.heroHome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+}
+.heroHome .heroTitle {
+  margin-top: 100px;
+}
+.heroHome .heroTitle h1 {
+  color: rgb(29, 52, 68);
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -3%;
+  text-align: left;
+  width: 618px;
+}
+.heroHome .heroTitle p {
+  color: rgb(91, 91, 91);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 557px;
+}
+.heroHome .heroTitle button {
+  padding: 18px 32px;
+  border-radius: 27px;
+  background: rgb(245, 138, 7);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 106.5%;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.heroHome .img-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.heroHome .img-container img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 606px;
+  height: 650px;
+}
+.heroHome .img-container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 650px;
+  background: rgba(245, 138, 7, 0.5);
+  border-radius: 19px;
+  -webkit-box-shadow: inset 0 0 50px rgba(255, 255, 255, 0.3);
+          box-shadow: inset 0 0 50px rgba(255, 255, 255, 0.3);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.heroHome .img-container:hover::before {
+  width: 616px;
+}

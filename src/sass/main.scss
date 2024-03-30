@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    button{
+        border: none
+    }
+    body{
+            overflow-x: hidden;
+    }
+    .container{
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+}
+.card2 {
+    position: relative;
+    bottom: 100px;
+}
+.heroCareers{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    img{
+        width: 70vw;
+        height: 85vh;
+        object-fit: cover;
+        border-radius: 30px;
+        margin-bottom: 128px;
+    }
+}
+.CareersText{
+    width: 752px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 128px;
+    h1{
+        color: rgb(29, 52, 68);
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 72px;
+        letter-spacing: -3%;
+        text-align: left;
+    }
+    p{
+        color: rgb(91, 91, 91);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+@import url("./components/home.scss");
+@import url("./components/navbar.scss");
+@import url("./components/heroHome.scss");
+@import url("./components/boxes.scss");
+@import url("./components/cards.scss");
+@import url("./components/footer.scss");
+@import url("./components/about__hero.scss");
+@import url("./components/serviseHero.scss");
+@import url("./components/serviseRegister.scss");
+@import url("./components/contactData.scss");

@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 300px;
+    position: fixed;
+    z-index: 111;
+    width: 100vw;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    .nav__items{
+        display: flex;
+        align-items: center;
+        gap: 35px;
+        .navbar__link {
+        color: rgb(57, 65, 73);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        text-transform: capitalize;
+    }
+    button{
+        border-radius: 31px;
+        background: rgba(245, 138, 7, 0.1);
+        padding: 18px 32px;
+        color: rgb(245, 138, 7);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 106.5%;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    }
+    
+}
+.navbar__link .active{
+    color: blue;
+}

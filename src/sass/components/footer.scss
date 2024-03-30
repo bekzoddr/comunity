@@ -1,0 +1,79 @@
+footer{
+    background: rgb(6, 50, 85);
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 80px 180px 50px;
+    .login{
+        display: flex;
+        flex-direction: column;
+        a { color: white;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-top: 120px;
+            }
+    }
+    .footer_links, .footer__address{
+        h2{
+            margin-bottom: 24px;
+        }
+        li{
+            margin-bottom: 16px;
+        }
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    p{
+        white-space: nowrap;
+    }
+        .footer__items,
+        p,
+  
+        h2{
+                font-family: Poppins;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 27px;
+                letter-spacing: 0%;
+                text-align: left;
+        }
+        h1{
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 44px;
+            letter-spacing: -3%;
+            text-align: left;
+        }
+        input{
+            padding: 18px 188px 17px 32px;
+            border-radius: 31px;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+            color: rgb(156, 156, 156);
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+            letter-spacing: 0%;
+            text-align: left;
+    }
+    button{
+        padding: 17px 32px;
+        width: 156px;
+        border-radius: 31px;
+        background: rgb(245, 138, 7);
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 106.5%;
+        letter-spacing: 0px;
+        text-align: left;
+        text-transform: capitalize;
+    }
+}
