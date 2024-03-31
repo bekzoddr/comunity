@@ -13,7 +13,6 @@
         align-items: center;
         gap: 35px;
         .navbar__link {
-        color: rgb(57, 65, 73);
         font-size: 16px;
         font-weight: 600;
         line-height: 24px;
@@ -35,6 +34,16 @@
     }
     
 }
-.navbar__link .active{
-    color: blue;
+.navbar__link {
+    color: rgb(57, 65, 73);
+    padding: 10px;
+    display: block;
+    transition: 0.3s all ease;
+    border-radius: 12px;
+}
+.navbar__link.active{
+    color: white;
+    background-color: rgb(57, 65, 73);
+    transition: 0.3s all ease;
+    border-radius: 12px;
 }
